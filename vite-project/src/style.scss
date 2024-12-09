@@ -1,13 +1,20 @@
 h1 {
   color: #CC3244;
-}
 
-h1:hover {
+  // h1 span
+  span {
+    color: blue;
+  }
+  
+  // h1:hover
+  &:hover {
     // Mørke rød header
     // color: darken(#CC3244, 15);
-
+    
     // Bytter header farge til blå
-    color: darken(#646cff, 15);
+    color: darken(#CC3244, 15);
+    cursor: pointer;
+  }
 }
 
 :root {
