@@ -1,6 +1,6 @@
 export default [
     {
-      files: ["**/*.js"], // Apply these rules to all .js files
+      files: ["src/**/*.js"], // Apply these rules to all .js files
       languageOptions: {
         ecmaVersion: 2022,
         sourceType: "module",
